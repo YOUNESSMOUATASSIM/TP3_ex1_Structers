@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1574607581 source:h:\c_c++\tp3_exercice1_cpp\employee.cpp
+	"employee.h"
+	<iostream>
+	<string.h>
+
+1574606276 h:\c_c++\tp3_exercice1_cpp\employee.h
+
+1574607553 source:h:\c_c++\tp3_exercice1_cpp\liste.cpp
+	"liste.h"
+	<iostream>
+	<string.h>
+
+1574605610 h:\c_c++\tp3_exercice1_cpp\liste.h
+	"employee.h"
+

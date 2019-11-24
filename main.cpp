@@ -42,14 +42,14 @@ if(i==4){
 switch (i){
 
      case 1:
-         cout<<"\n  donner le prenom :\n";
+         cout<<"\n  donner le prenom :\t";
          cin>>P;
 
          //getline(cin,P);
 
 strcpy(p,&P[0]);
 
-         cout<<"\n  donner le nom :\n";
+         cout<<"\n  donner le nom :\t";
 
         //cin.get(n,9);
         //getline(cin,N);
@@ -57,7 +57,7 @@ strcpy(p,&P[0]);
         cin>>N;
 strcpy(n,&N[0]);
 
-         cout<<"\n  donner le salaire :\n";
+         cout<<"\n  donner le salaire :\t";
          cin>>s;
 
         // cout<<"\n prenom :"<<p;
@@ -80,7 +80,7 @@ ajouter_emp(&e,&l);
 
          break;
     case 3:
-        cout<<"\n donner le nom chercher :\n";
+        cout<<"\n donner le nom chercher :\t";
         //cin.getline(n,100);
           cin>>N;
           strcpy(n,&N[0]);
